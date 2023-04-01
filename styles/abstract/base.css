@@ -1,0 +1,7 @@
+@import url(./variaveis.css);
+
+/* FONTE */
+body {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+}

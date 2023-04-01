@@ -1,0 +1,8 @@
+:root {
+    --fonte-principal: 'Montserrat', sans-serif;
+    --cor-cinza: #d3d3d3;
+    --fonte-titulo: 25px;
+    --cor-gradiente: linear-gradient(#FEFEFE, #888888);
+    --cor-laranja: #DAA520;
+    --cor-verde-clara: lightgreen;
+}

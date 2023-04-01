@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Contatos - Barbearia Alura</title>
+		<link rel="stylesheet" href="./styles/abstract/reset.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./styles/style.css">
+	</head>
+	
+	<body>
+		<header>
+			<section class="container">
+				<h1 class="container__titulo"><img src="./img/logo.png"></h1>
+					<nav class="container__menu">
+						<ul class="menu">
+							<li><a href="index.html" class="menu__item">Home</a></li>
+							<li><a href="produtos.html" class="menu__item">Produtos</a></li>
+							<li><a href="contatos.html" class="menu__item">Contatos</a></li>
+						</ul>
+					</nav>
+			</section>
+		</header>
+	
+	<main>
+		<form>
+		<section class="formulario__secao">
+			<div class="container__input">
+				<label for="nome" class="label-padrao">Nome</label>
+				<input type="text" id="nome" class="input-padrao" required>
+				<label for="sobrenome" class="label-padrao">Sobrenome</label>
+				<input type="text" id="sobrenome" class="input-padrao" required>
+			</div>
+				
+			<div class="container__input">
+				<label for="email" class="label-padrao">Email</label>
+				<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com.br">
+				<label for="telefone" class="label-padrao">Telefone</label>
+				<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+			</div>
+		</section>
+			<div class="container__input">
+				<label for="mensagem" class="label-padrao">Mensagem</label>
+				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+			</div>
+
+			<fieldset class="container__contato">
+				<legend>Como prefere o nosso contato?</legend>
+					<label for="radio-email">
+						<input type="radio" name="contato" value="email" id="radio-email" checked>
+						Email
+					</label>
+					<label for="radio-ligacao">
+						<input type="radio" name="contato" value="ligacao" id="radio-ligacao">
+						Ligação
+					</label>
+					<label for="radio-whatsapp">
+						<input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+						Whatsapp
+					</label>
+			</fieldset>
+
+			<fieldset class="container__horario">
+				<legend>Qual horário prefere ser atendido?</legend>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+			</fieldset>
+
+			<label class="container__checkbox">
+				<input type="checkbox" class="checkbox" checked>
+				Gostaria de receber nossas novidades por email?
+			</label>
+		
+			<div class="container__botao--enviar">
+				<input type="submit" value="Enviar" class="enviar">
+			</div>
+
+		</form>
+
+		<table>
+			<thead>
+				<tr>
+					<th>Dia</th>
+					<th>Horário</th>
+				<tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td>Segundas</td>
+					<td>8h ~ 20h</td>
+				</tr>
+				<tr>
+					<td>Quartas</td>
+					<td>8h ~ 20h</td>
+				</tr>
+				<tr>
+					<td>Sextas</td>
+					<td>8h ~ 20h</td>
+				</tr>
+			</tbody>
+
+		</table>
+
+	</main>
+
+	<footer class="rodape">
+		<img src="./img/logo-branco.png">
+		<p> &copy; Copyright Barbearia Alura - 2023</p>
+	</footer>
+
+	</body>
+</html>

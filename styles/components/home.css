@@ -1,0 +1,158 @@
+@import url(../abstract/variaveis.css);
+
+.banner {
+	width: 100%;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: var(--fonte-titulo);
+    font-weight: 500;
+	margin: 1rem 1rem;
+	clear: left;
+}
+
+.principal {
+	padding: 1rem 1rem;
+	background: #FEFEFE;
+	margin: 0px auto;
+	text-align: justify;
+	line-height: 1.3;
+}
+
+.principal p {
+	margin-bottom: 1rem;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.utensilios{
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.mapa {
+	padding: 1rem 1rem;
+	background: var(--cor-gradiente);
+}
+
+.mapa p {
+	text-align: center;
+	margin: 0 0 2em;
+}
+
+.mapa .mapa-conteudo{
+	width: 90%;
+	margin: auto;
+}
+
+.beneficios {
+	padding: 3em 0;
+	background: #888888;
+}
+
+.conteudo-beneficos {
+	display: flex;
+	flex-direction: column;
+	padding: 0 1rem;
+}
+
+.lista-beneficios {
+	text-align: center;
+	vertical-align: top;
+	line-height: 1.5;
+	margin-bottom: 1rem;
+}
+
+.itens:before{
+	content: "✦";
+}
+
+.itens:first-child {
+	font-weight: bold;
+}
+
+.conteudo-beneficos .imagem-beneficios {
+	width: 90%;
+	margin: auto;
+	opacity: 1;
+	transition: 1s;
+	box-shadow: 10px 10px 20px 0 black;
+}
+
+.imagem-beneficios:hover {
+	opacity: 0.5;
+}
+
+.video {
+	width: 90%;
+	margin: 2rem auto;
+}
+
+/* CSS da página inicial TABLET */
+
+@media screen and (min-width: 760px) {
+
+	.conteudo-beneficos {
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		width: 70%;
+		padding: 2rem;
+		margin: auto;
+	}
+
+	.lista-beneficios {
+		text-align: left;
+	}
+
+	.lista-beneficios, .imagem-beneficios{
+		width: 100%;
+	}
+
+	/* .video {
+		padding: 0 18px;
+	} */
+}
+
+@media screen and (min-width: 1024px) {
+	
+	.titulo-principal {
+		font-size: 30px;
+		margin-bottom: 2rem;
+	}
+
+	.principal {
+		width: 70%
+	}
+
+	.mapa .mapa-conteudo{
+		width: 60%;
+		margin: auto;
+	}
+	
+	.lista-beneficios, .imagem-beneficios{
+		width: 50%;
+	}
+
+	.conteudo-beneficos {
+		width: 50%;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.conteudo-beneficos .imagem-beneficios {
+		width: 40%;
+	}
+
+	.video {
+		width: 50%;
+	}
+}

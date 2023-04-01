@@ -1,0 +1,13 @@
+@import url(../abstract/variaveis.css);
+
+.rodape {
+	text-align: center;
+	background: url("../../img/bg.jpg");
+	padding: 30px 0;
+}
+
+.rodape p {
+	color: white;
+	font-size: 13px;
+	margin: 10px 0;
+}
