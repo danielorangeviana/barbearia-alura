@@ -1,4 +1,5 @@
 # Barbearia Alura
+
 ![Badge FInalizado](http://img.shields.io/static/v1?label=STATUS&message=%20FINALIZADO&color=GREEN&style=for-the-badge)
 
 * [Título e Imagem de capa](#Título-e-Imagem-de-capa)
@@ -10,28 +11,28 @@
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
 * [Conclusão](#conclusão)
 
-<b>DESCRIÇÃO DO PROJETO</b>
+> <b>DESCRIÇÃO DO PROJETO</b>
 
 Olá a todos! Meu nome é Daniel Orange e estou iniciando no mundo da programação. Sou técnico em Sistema de Informação e trabalho para a Força Aérea Brasileira na área de redes a 15 anos. 
 Com o intuito de mudar de área iniciei a formação em front-end pela ALura para iniciar na programação. No primeiro curso Alura desenvolvi este projeto voltado ao treinamento BÁSICO e aprendizado INICIAL em HTML5 e CSS3. 
 
 Assim, durante o curso foi construído um site simples de barbearia em HTML5 e estilizado com CSS3, com o fim de apresentar as ferramentas e praticar suas funcionalidades.
 
-:battery: <b>Status do Projeto</b>
+> :battery: <b>Status do Projeto</b>
 
 Projeto concluído :heavy_check_mark:
 
-:file_folder: <b>Acesso ao Projeto</b>
+> :file_folder: <b>Acesso ao Projeto</b>
 
 Você pode acessar o código HTML e CSS ou baixá-los por este post no GIT.
 
-:on: <b>Abrir e rodar o projeto</b>
+> :on: <b>Abrir e rodar o projeto</b>
 
 Você também poderá rodar o projeto pelo link da VERCEL a seguir: https://barbearia-alura-woad.vercel.app/
 
 Basta clicar ou copiar e colar a URL acima em seu navegador de preferência.
 
-🛠️ <b>Tecnologias utilizadas</b>
+> 🛠️ <b>Tecnologias utilizadas</b>
 
 :pushpin: HTML5
 :pushpin: CSS3
