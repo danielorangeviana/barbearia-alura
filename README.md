@@ -13,8 +13,7 @@
 
 > <b>DESCRIÇÃO DO PROJETO</b>
 
-Olá a todos! Meu nome é Daniel Orange e estou iniciando no mundo da programação. Sou técnico em Sistema de Informação e trabalho para a Força Aérea Brasileira na área de redes a 15 anos. 
-Com o intuito de mudar de área iniciei a formação em front-end pela ALura para iniciar na programação. No primeiro curso Alura desenvolvi este projeto voltado ao treinamento BÁSICO e aprendizado INICIAL em HTML5 e CSS3. 
+Olá a todos! Meu nome é Daniel Orange e estou iniciando no mundo da programação. Com o intuito de mudar de área iniciei a formação em front-end pela ALura para iniciar na programação. No primeiro curso Alura desenvolvi este projeto voltado ao treinamento BÁSICO e aprendizado INICIAL em HTML5 e CSS3. 
 
 Assim, durante o curso foi construído um site simples de barbearia em HTML5 e estilizado com CSS3, com o fim de apresentar as ferramentas e praticar suas funcionalidades.
 
@@ -34,6 +33,6 @@ Basta clicar ou copiar e colar a URL acima em seu navegador de preferência.
 
 > 🛠️ <b>Tecnologias utilizadas</b>
 
-:pushpin: HTML5
-:pushpin: CSS3
+:round_pushpin: HTML5
+:round_pushpin: CSS3
 
