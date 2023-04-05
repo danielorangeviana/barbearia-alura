@@ -31,7 +31,7 @@ Você também poderá rodar o projeto pelo link da VERCEL a seguir: https://barb
 
 Basta clicar ou copiar e colar a URL acima em seu navegador de preferência.
 
-> 🛠️ <b>Tecnologias utilizadas</b>
+> <b>Tecnologias utilizadas</b> 🛠️
 
 :round_pushpin: HTML5
 :round_pushpin: CSS3
